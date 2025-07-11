@@ -29,6 +29,11 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import engima from "./engima.png";
+import presisipolri from "./presisipolri.png";
+import kasirkita from "./kasirkita.png";
+import beritahoax from "./beritahoax.png";
+import hargasaham from "./hargasaham.png";
 
 export {
   logo,
@@ -59,4 +64,9 @@ export {
   carrent,
   jobit,
   tripguide,
+  engima,
+  presisipolri,
+  kasirkita,
+  beritahoax,
+  hargasaham,
 };

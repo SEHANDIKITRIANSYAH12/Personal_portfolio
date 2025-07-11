@@ -40,13 +40,13 @@ type TConfig = {
 
 export const config: TConfig = {
   html: {
-    title: "John Doe — 3D Portfolio",
-    fullName: "John Doe",
-    email: "johndoe@mail.com",
+    title: "Sehan Diki — 3D Portfolio",
+    fullName: "Sehan Diki Triansyah",
+    email: "sehandiki@example.com",
   },
   hero: {
-    name: "John Doe",
-    p: ["I develop 3D visuals, user", "interfaces and web applications"],
+    name: "Sehan Diki Triansyah",
+    p: ["I'm a 6th-semester student at Gunadarma University", "with a passion for web development, Artificial Intelligence, and 3D visuals."],
   },
   contact: {
     p: "Get in touch",
@@ -67,15 +67,11 @@ export const config: TConfig = {
     about: {
       p: "Introduction",
       h2: "Overview.",
-      content: `I'm a skilled software developer with experience in TypeScript and
-      JavaScript, and expertise in frameworks like React, Node.js, and
-      Three.js. I'm a quick learner and collaborate closely with clients to
-      create efficient, scalable, and user-friendly solutions that solve
-      real-world problems. Let's work together to bring your ideas to life!`,
+      content: `I am a student in my 6th semester at Gunadarma University, majoring in Informatics Engineering. I have a strong interest in web development and am always eager to learn new technologies. I am proficient in JavaScript and have experience with frameworks like React and Node.js. I am a dedicated and hardworking individual, ready to contribute to real-world projects and bring creative ideas to life!`,
     },
     experience: {
       p: "What I have done so far",
-      h2: "Work Experience.",
+      h2: "Education.",
     },
     feedbacks: {
       p: "What others say",

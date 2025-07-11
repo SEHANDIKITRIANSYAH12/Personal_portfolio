@@ -24,13 +24,11 @@ import {
   git,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
   carrent,
-  jobit,
   tripguide,
+  engima,
+  presisipolri,
+  kasirkita,
   threejs,
 } from "../assets";
 
@@ -51,19 +49,19 @@ export const navLinks: TNavLink[] = [
 
 const services: TService[] = [
   {
-    title: "Web Developer",
+    title: "Frontend Developer",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Web Development Enthusiast",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "UI/UX Design",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "College Student",
     icon: creator,
   },
 ];
@@ -125,98 +123,97 @@ const technologies: TTechnology[] = [
 
 const experiences: TExperience[] = [
   {
-    title: "React.js Developer",
-    companyName: "Starbucks",
-    icon: starbucks,
+    title: "Informatics Engineering Student",
+    companyName: "Universitas Gunadarma",
+    icon: creator,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "2021 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "React Native Developer",
-    companyName: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    companyName: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    companyName: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Currently in the 6th semester of my undergraduate studies.",
+      "Learning about web development, data structures, algorithms, and more.",
+      "Passionate about creating beautiful and functional web applications.",
+      "Looking for opportunities to apply my skills and learn from experienced professionals.",
     ],
   },
 ];
 
-const testimonials: TTestimonial[] = [
-  {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
-  },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
-  },
-];
+const testimonials: TTestimonial[] = [];
 
 const projects: TProject[] = [
   {
-    name: "Car Rent",
+    name: "Analisis Bug Presisi Polri App Beta 2023 ",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "An analysis of the Presisi Polri website reveals several usability issues, including inaccessible menus and unresponsive buttons. These bugs hinder user interaction and indicate incomplete functionality in certain areas of the platform, highlighting the need for further testing and refinement to ensure a seamless user experience.",
     tags: [
       {
-        name: "react",
+        name: "python",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "pandas",
+        color: "green-text-gradient",
+      },
+      {
+        name: "selenium",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: presisipolri,
+    sourceCodeLink: "https://github.com/SEHANDIKITRIANSYAH12",
+  },
+  {
+    name: "Nontondong",
+    description:
+      "Nontondong is a modern movie ticket booking app that makes going to the cinema easier and more exciting. Discover the latest films, choose your favorite seats, and book tickets in just a few taps. With a sleek interface and flexible payment options, Nontondong brings the ultimate movie experience right to your fingertips.",
+    tags: [
+      {
+        name: "laravel",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mysql",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: engima,
+    sourceCodeLink: "https://github.com/SEHANDIKITRIANSYAH12",
+  },
+  {
+    name: "KasirKita",
+    description:
+      "KasirKita is a web-based Point of Sale (POS) application designed to help MSMEs and retail businesses manage sales transactions, inventory, financial reports, and customer data efficiently and effortlessly. Supports multiple payment methods and is accessible across devices.",
+    tags: [
+      {
+        name: "laravel",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mysql",
+        color: "green-text-gradient",
+      },
+      {
+        name: "bootstrap",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: kasirkita,
+    sourceCodeLink: "https://github.com/SEHANDIKITRIANSYAH12",
+  },
+  {
+    name: "E-Callsupply",
+    description:
+      "E-Callsupply is a comprehensive e-commerce solution built with the MERN stack, offering seamless product browsing, secure shopping cart functionality, user authentication, and a powerful admin panel for efficient product and order management.",
+    tags: [
+      {
+        name: "laravel",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mysql",
         color: "green-text-gradient",
       },
       {
@@ -225,40 +222,19 @@ const projects: TProject[] = [
       },
     ],
     image: carrent,
-    sourceCodeLink: "https://github.com/",
+    sourceCodeLink: "https://github.com/SEHANDIKITRIANSYAH12",
   },
   {
-    name: "Job IT",
+    name: "Weather App",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "A simple weather application that fetches and displays current weather data for a given city using a third-party API. Features a clean UI and dynamic weather icons.",
     tags: [
       {
-        name: "react",
+        name: "javascript",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: jobit,
-    sourceCodeLink: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
+        name: "html",
         color: "green-text-gradient",
       },
       {
@@ -267,7 +243,32 @@ const projects: TProject[] = [
       },
     ],
     image: tripguide,
-    sourceCodeLink: "https://github.com/",
+    sourceCodeLink: "https://github.com/SEHANDIKITRIANSYAH12",
+  },
+  {
+    name: "AI Image Classification",
+    description:
+      "An advanced image classification system using deep learning with TensorFlow and Keras. The project implements both custom CNN models and fine-tunes pre-trained models like ResNet and VGG16 to classify images across various categories with high accuracy.",
+    tags: [
+      {
+        name: "python",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tensorflow",
+        color: "green-text-gradient",
+      },
+      {
+        name: "keras",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "opencv",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: web, // Using web.png as a placeholder for now
+    sourceCodeLink: "https://github.com/SEHANDIKITRIANSYAH12/ai-image-classification",
   },
 ];
 
